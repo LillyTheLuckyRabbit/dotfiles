@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "katamari.png"
+let background = "#2d3232"
+let foreground = "#ffffcb"
+let cursor     = "#ffffcb"
+
+" Colors
+let color0  = "#2d3232"
+let color1  = "#0a669f"
+let color2  = "#0b4371"
+let color3  = "#e4a130"
+let color4  = "#e95365"
+let color5  = "#6d9516"
+let color6  = "#a63226"
+let color7  = "#d1d099"
+let color8  = "#515b5b"
+let color9  = "#0187d9"
+let color10 = "#06579b"
+let color11 = "#ffd52c"
+let color12 = "#ff5773"
+let color13 = "#91cc11"
+let color14 = "#e53624"
+let color15 = "#ffffcb"
