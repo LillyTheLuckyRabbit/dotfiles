@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/will/.config/wpg/wallpapers/6V_Wallpaper.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0b0b0b",
+        "foreground": "#eaffff",
+        "cursor": "#eaffff"
+    },
+    "colors": {
+        "color0": "#0b0b0b",
+        "color1": "#4edfe3",
+        "color2": "#93c8d5",
+        "color3": "#97ccda",
+        "color4": "#5af0f0",
+        "color5": "#38a7ac",
+        "color6": "#739aa6",
+        "color7": "#cbe7ef",
+        "color8": "#242424",
+        "color9": "#51ffff",
+        "color10": "#a7ffff",
+        "color11": "#acffff",
+        "color12": "#5fffff",
+        "color13": "#39e6ee",
+        "color14": "#83d1ea",
+        "color15": "#eaffff"
+    }
+}

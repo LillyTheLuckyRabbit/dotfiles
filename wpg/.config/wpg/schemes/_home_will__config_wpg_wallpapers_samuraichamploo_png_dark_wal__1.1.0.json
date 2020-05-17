@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/will/.config/wpg/wallpapers/samuraichamploo.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#151515",
+        "foreground": "#ffffea",
+        "cursor": "#ffffea"
+    },
+    "colors": {
+        "color0": "#151515",
+        "color1": "#e1761e",
+        "color2": "#dc7e2a",
+        "color3": "#ffb158",
+        "color4": "#ef9238",
+        "color5": "#ffc57d",
+        "color6": "#ffb15e",
+        "color7": "#fde4c9",
+        "color8": "#252525",
+        "color9": "#ff9616",
+        "color10": "#ffa124",
+        "color11": "#ffe658",
+        "color12": "#ffbd36",
+        "color13": "#ffff89",
+        "color14": "#ffe563",
+        "color15": "#ffffea"
+    }
+}

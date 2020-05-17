@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/will/.config/wpg/wallpapers/animals.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0d0a0f",
+        "foreground": "#ffffe0",
+        "cursor": "#ffffe0"
+    },
+    "colors": {
+        "color0": "#0d0a0f",
+        "color1": "#A44E3A",
+        "color2": "#67595A",
+        "color3": "#936654",
+        "color4": "#28304C",
+        "color5": "#6F443B",
+        "color6": "#414051",
+        "color7": "#d6c5ab",
+        "color8": "#271d2d",
+        "color9": "#e35c3c",
+        "color10": "#92676a",
+        "color11": "#ce7e5e",
+        "color12": "#2c3a6a",
+        "color13": "#9b5141",
+        "color14": "#4c4972",
+        "color15": "#ffffe0"
+    }
+}

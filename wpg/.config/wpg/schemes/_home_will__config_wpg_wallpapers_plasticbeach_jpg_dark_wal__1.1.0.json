@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/will/.config/wpg/wallpapers/plasticbeach.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#191514",
+        "foreground": "#f8feff",
+        "cursor": "#f8feff"
+    },
+    "colors": {
+        "color0": "#191514",
+        "color1": "#C8D6EB",
+        "color2": "#BBCCE5",
+        "color3": "#BAC0B4",
+        "color4": "#882b1e",
+        "color5": "#8B9AB0",
+        "color6": "#A5B5D0",
+        "color7": "#e2e7ed",
+        "color8": "#342c2a",
+        "color9": "#d1f5ff",
+        "color10": "#cbf5ff",
+        "color11": "#f1ffd1",
+        "color12": "#ab4b3e",
+        "color13": "#a0c4f9",
+        "color14": "#bee5ff",
+        "color15": "#f8feff"
+    }
+}

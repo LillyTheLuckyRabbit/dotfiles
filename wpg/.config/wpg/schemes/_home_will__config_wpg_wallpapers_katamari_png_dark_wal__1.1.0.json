@@ -1,28 +1,28 @@
 {
-    "wallpaper": "katamari.png",
+    "wallpaper": "/home/will/.config/wpg/wallpapers/katamari.png",
     "alpha": "100",
 
     "special": {
-        "background": "#2d3232",
-        "foreground": "#ffffcb",
-        "cursor": "#ffffcb"
+        "background": "#2b3030",
+        "foreground": "#e9e9c7",
+        "cursor": "#e9e9c7"
     },
     "colors": {
-        "color0": "#2d3232",
-        "color1": "#0a669f",
-        "color2": "#0b4371",
-        "color3": "#e4a130",
-        "color4": "#e95365",
-        "color5": "#6d9516",
-        "color6": "#a63226",
-        "color7": "#d1d099",
-        "color8": "#515b5b",
-        "color9": "#0187d9",
-        "color10": "#06579b",
-        "color11": "#ffd52c",
-        "color12": "#ff5773",
-        "color13": "#91cc11",
-        "color14": "#e53624",
-        "color15": "#ffffcb"
+        "color0": "#2b3030",
+        "color1": "#09649d",
+        "color2": "#094171",
+        "color3": "#e29f2e",
+        "color4": "#e75163",
+        "color5": "#6b9314",
+        "color6": "#a63024",
+        "color7": "#d1ce99",
+        "color8": "#4f5959",
+        "color9": "#0b81cd",
+        "color10": "#075597",
+        "color11": "#f0d32a",
+        "color12": "#ed5571",
+        "color13": "#8fca0f",
+        "color14": "#e33422",
+        "color15": "#e9e9c7"
     }
 }

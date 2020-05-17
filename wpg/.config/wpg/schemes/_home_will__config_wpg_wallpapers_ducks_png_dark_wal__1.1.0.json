@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/will/.config/wpg/wallpapers/ducks.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#382318",
+        "foreground": "#ffffed",
+        "cursor": "#ffffed"
+    },
+    "colors": {
+        "color0": "#382318",
+        "color1": "#CCB38D",
+        "color2": "#ACC773",
+        "color3": "#CFAB69",
+        "color4": "#E8D68C",
+        "color5": "#AEAA92",
+        "color6": "#7BA985",
+        "color7": "#e9e3cb",
+        "color8": "#5b3826",
+        "color9": "#ffeda0",
+        "color10": "#e6ff81",
+        "color11": "#ffe474",
+        "color12": "#ffff9d",
+        "color13": "#f6eba9",
+        "color14": "#8ceea2",
+        "color15": "#ffffed"
+    }
+}

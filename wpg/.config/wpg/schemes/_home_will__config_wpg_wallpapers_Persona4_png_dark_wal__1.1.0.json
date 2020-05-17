@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/will/.config/wpg/wallpapers/Persona4.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#151714",
+        "foreground": "#f8f8ef",
+        "cursor": "#f8f8ef"
+    },
+    "colors": {
+        "color0": "#151714",
+        "color1": "#d6d099",
+        "color2": "#dad91f",
+        "color3": "#ebe91a",
+        "color4": "#ffb929",
+        "color5": "#8c6dd3",
+        "color6": "#c6b24b",
+        "color7": "#f8f8dd",
+        "color8": "#2d312b",
+        "color9": "#ffffcc",
+        "color10": "#ebeb18",
+        "color11": "#ebeb10",
+        "color12": "#fcd102",
+        "color13": "#af79f0",
+        "color14": "#efef50",
+        "color15": "#f8f8ef"
+    }
+}

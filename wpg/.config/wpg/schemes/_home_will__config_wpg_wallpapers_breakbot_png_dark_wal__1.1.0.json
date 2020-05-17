@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/will/.config/wpg/wallpapers/breakbot.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#060605",
+        "foreground": "#fffaf7",
+        "cursor": "#fffaf7"
+    },
+    "colors": {
+        "color0": "#060605",
+        "color1": "#960a0a",
+        "color2": "#D2C4BA",
+        "color3": "#FEC7B8",
+        "color4": "#0401a5",
+        "color5": "#C3A9A8",
+        "color6": "#1D4892",
+        "color7": "#eadfdc",
+        "color8": "#21211b",
+        "color9": "#cd0202",
+        "color10": "#fff8d6",
+        "color11": "#ffd9bc",
+        "color12": "#0401d6",
+        "color13": "#ffc5c2",
+        "color14": "#1a5ac9",
+        "color15": "#fffaf7"
+    }
+}

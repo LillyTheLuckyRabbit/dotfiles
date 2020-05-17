@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/will/.config/wpg/wallpapers/DaftPunk.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0e0e0e",
+        "foreground": "#f7ffff",
+        "cursor": "#f7ffff"
+    },
+    "colors": {
+        "color0": "#0e0e0e",
+        "color1": "#3C81AB",
+        "color2": "#467CA4",
+        "color3": "#857E84",
+        "color4": "#9b8a36",
+        "color5": "#6C92B2",
+        "color6": "#5485AB",
+        "color7": "#c5cbd1",
+        "color8": "#272727",
+        "color9": "#3eabed",
+        "color10": "#4ba3e4",
+        "color11": "#bd93b7",
+        "color12": "#d7bc38",
+        "color13": "#79bff9",
+        "color14": "#5caeee",
+        "color15": "#f7ffff"
+    }
+}

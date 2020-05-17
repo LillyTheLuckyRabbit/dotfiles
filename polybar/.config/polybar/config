@@ -33,7 +33,7 @@ padding = 3
 
 modules-left = i3
 modules-center = date
-modules-right = volume mpd
+modules-right = volume battery mpd
 
 [module/date]
 type = internal/date

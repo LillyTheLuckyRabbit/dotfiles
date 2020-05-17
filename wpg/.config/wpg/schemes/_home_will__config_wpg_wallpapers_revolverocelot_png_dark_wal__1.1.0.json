@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/will/.config/wpg/wallpapers/revolverocelot.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0b0705",
+        "foreground": "#fffffe",
+        "cursor": "#fffffe"
+    },
+    "colors": {
+        "color0": "#0b0705",
+        "color1": "#B38F5E",
+        "color2": "#827E89",
+        "color3": "#C69E68",
+        "color4": "#64758D",
+        "color5": "#AAA7A8",
+        "color6": "#7489A2",
+        "color7": "#e2e2e1",
+        "color8": "#2e1c13",
+        "color9": "#fabc68",
+        "color10": "#a492c3",
+        "color11": "#ffd073",
+        "color12": "#7295c6",
+        "color13": "#f2c3d3",
+        "color14": "#84b0e4",
+        "color15": "#fffffe"
+    }
+}

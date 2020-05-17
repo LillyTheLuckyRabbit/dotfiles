@@ -1,19 +1,18 @@
-rofi.modi:                           drun
+rofi.modi:                           window,run,ssh
 rofi.width:                          50
 rofi.lines:                          15
 rofi.columns:                        1
-rofi.font:                           knxt medium 15
-rofi.color-normal:                   #2d3232, #ffffcb, #2d3232, #cb455c, #ffffcb
-rofi.color-urgent:                   #2d3232, #d6b48d, #22231D, #d6b48d, #ffffcb
-rofi.color-active:                   #2d3232, #e53624, #2d3232, #e53624, #2d3232
-rofi.color-window:                   #2d3232, #cb455c, #8c303f
+rofi.font:                           knxt 14
+rofi.color-normal:                   #151714, #f8f8ef, #151714, #c9a701, #f8f8ef
+rofi.color-urgent:                   #151714, #d6b48d, #22231D, #d6b48d, #f8f8ef
+rofi.color-active:                   #151714, #efef50, #151714, #efef50, #151714
+rofi.color-window:                   #151714, #c9a701, #8a7201
 rofi.bw:                             5
 rofi.location:                       0
 rofi.padding:                        5
 rofi.yoffset:                        0
 rofi.xoffset:                        0
 rofi.fixed-num-lines:                true
-rofi.show-icons:                     true
 rofi.terminal:                       rofi-sensible-terminal
 rofi.ssh-client:                     ssh
 rofi.ssh-command:                    {terminal} -e {ssh-client} {host}
@@ -26,4 +25,4 @@ rofi.kb-mode-next:                   Shift+Right,Control+Tab,Alt+l
 rofi.kb-mode-previous:               Shift+Left,Control+Shift+Tab,Alt+h
 rofi.kb-row-up:                      Up,Control+p,Shift+Tab,Shift+ISO_Left_Tab,Alt+k
 rofi.kb-row-down:                    Down,Control+n,Alt+j
-rofi.drun-display-format:	     {name}
+rofi.show-icons:		     true
