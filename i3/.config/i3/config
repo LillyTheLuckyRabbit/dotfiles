@@ -110,7 +110,9 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+#bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+bindsym $mod+Shift+e exec "rofi -show power-menu -modi 'power-menu:~/.config/i3/rofi-power-menu --no-symbols'"
+
 
 mode "resize" {
         # resize windows
@@ -146,5 +148,4 @@ exec wpg -m
 exec dunst
 exec polybar main
 exec polybar tray
-exec nm-applet
 exec ~/autorun.sh
