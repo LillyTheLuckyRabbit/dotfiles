@@ -10,7 +10,7 @@ urgent = ${xrdb:color5:#FFF}
 override-redirect = true
 wm-restack = i3
 
-width = 45%
+width = 50%
 height = 32
 offset-x = 20
 offset-y = 10
@@ -21,19 +21,20 @@ border-left-color = ${colors.special}
 bottom = true
 
 font-0 = knxt:size=16;1
-font-1 = Symbola:size=16;1
+font-1 = Noto\ Sans\ CJK\ JP:size=14;1
+font-2 = Symbola:size=16;1
 
 background = ${colors.background}
 foreground = ${colors.foreground}
 
 fixed-center = false
 
-separator = "   "
-padding = 3
+separator = "  "
+padding = 1
 
 modules-left = i3
 modules-center = date
-modules-right = volume battery mpd
+modules-right = pulseaudio-control battery mpd
 
 [module/date]
 type = internal/date
@@ -45,15 +46,18 @@ label = %date% : %time%
 date = %a %Y-%m-%d%
 time = %H:%M:%S
 
-[module/volume]
-type = internal/pulseaudio
+[module/pulseaudio-control]
+type = custom/script
+tail = true
 
-format-volume = <ramp-volume> <label-volume>
-format-muted = <label-muted>
-label-muted = 🔇 %percentage%%
-ramp-volume-0 = 🔈
-ramp-volume-1 = 🔉
-ramp-volume-2 = 🔊
+exec = ~/.config/polybar/pulseaudio-control.bash listen
+click-right = exec pavucontrol &
+click-left = ~/.config/polybar/pulseaudio-control.bash togmute
+click-middle = ~/.config/polybar/pulseaudio-control.bash next-sink
+scroll-up = ~/.config/polybar/pulseaudio-control.bash up
+scroll-down = ~/.config/polybar/pulseaudio-control.bash down
+label-padding = 1
+label-foreground = ${colors.foreground}
 
 [module/battery]
 type = internal/battery
