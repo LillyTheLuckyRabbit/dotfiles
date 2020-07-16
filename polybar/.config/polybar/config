@@ -30,7 +30,7 @@ foreground = ${colors.foreground}
 fixed-center = false
 
 separator = "  "
-padding = 1
+padding = 2
 
 modules-left = i3
 modules-center = date
