@@ -24,7 +24,7 @@ super + alt + {q,r}
 
 # power menu
 super + shift + e
-	rofi -show power-menu -modi 'power-menu:~/.config/i3/rofi-power-menu --no-symbols'
+	rofi -show power-menu -modi 'power-menu:~/.config/rofi/rofi-power-menu --no-symbols'
 
 # close and kill
 super + {shift,shift+alt} + q
