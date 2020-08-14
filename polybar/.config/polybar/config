@@ -6,17 +6,61 @@ darkened = ${xrdb:color2:#FFF}
 special = ${xrdb:color12:#FFF}
 urgent = ${xrdb:color5:#FFF}
 
-[bar/main]
+[bar/left]
+monitor = ${env:MONITOR:}
 override-redirect = true
-wm-restack = i3
+wm-restack = bspwm
 
-width = 50%
+width = 6.75%
 height = 32
 offset-x = 20
 offset-y = 10
 
-border-left-size = 4
+border-left-size = 2
 border-left-color = ${colors.special}
+border-bottom-size = 4
+border-bottom-color = ${colors.special}
+
+bottom = true
+
+font-0 = knxt:size=16;1
+font-1 = Noto\ Sans\ CJK\ JP:size=14;1
+font-2 = Symbola:size=16;1
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+fixed-center = false
+
+separator = ""
+padding = 0
+
+modules-left = 
+modules-center = date
+modules-right = 
+
+[module/date]
+type = internal/date
+
+interval = 1.0
+
+label = %date%
+
+date-alt = 📅 %a %m-%d%
+date = 🕑 %H:%M:%S
+
+[bar/center]
+monitor = ${env:MONITOR:}
+override-redirect = true
+wm-restack = bspwm
+
+width = 12%
+height = 32
+offset-x = 44%
+offset-y = 10
+
+border-bottom-size = 4
+border-bottom-color = ${colors.special}
 
 bottom = true
 
@@ -32,32 +76,95 @@ fixed-center = false
 separator = "  "
 padding = 2
 
-modules-left = i3
-modules-center = date
-modules-right = pulseaudio-control battery mpd
+modules-left =
+modules-center = bspwm
+modules-right = 
 
-[module/date]
-type = internal/date
+[module/bspwm]
+type = internal/bspwm
+label-focused-foreground = ${colors.foreground}
+label-empty-foreground = ${colors.special}
+label-empty= •
+label-occupied= •
+label-focused = ×
+label-separator = " "
 
-interval = 1.0
+[bar/right]
+monitor = ${env:MONITOR:}
+override-redirect = true
+wm-restack = bspwm
 
-label = %date% : %time%
+width = 5%
+height = 32
+offset-x = 95%:-20
+offset-y = 10
 
-date = %a %Y-%m-%d%
-time = %H:%M:%S
+border-right-size = 2
+border-right-color = ${colors.special}
+border-bottom-size = 4
+border-bottom-color = ${colors.special}
 
-[module/pulseaudio-control]
-type = custom/script
-tail = true
+bottom = true
 
-exec = ~/.config/polybar/pulseaudio-control.bash listen
-click-right = exec pavucontrol &
-click-left = ~/.config/polybar/pulseaudio-control.bash togmute
-click-middle = ~/.config/polybar/pulseaudio-control.bash next-sink
-scroll-up = ~/.config/polybar/pulseaudio-control.bash up
-scroll-down = ~/.config/polybar/pulseaudio-control.bash down
-label-padding = 1
-label-foreground = ${colors.foreground}
+font-0 = knxt:size=16;1
+font-1 = Symbola:size=16;1
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+fixed-center = true
+
+separator = ""
+padding = 2
+
+modules-left =
+modules-center =
+modules-right = pulseaudio
+
+;tray-position = left
+;tray-background = ${colors.background}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+interval = 5
+use-ui-max = false
+format-volume = <ramp-volume> <label-volume>
+label-muted = 🔇 muted
+label-muted-foreground = #666
+ramp-volume-0 = 🔈
+ramp-volume-1 = 🔉
+ramp-volume-2 = 🔊
+
+[bar/rightbat]
+monitor = ${env:MONITOR:}
+override-redirect = true
+wm-restack = bspwm
+
+width = 4.5%
+height = 32
+offset-x = 91%:-20
+offset-y = 10
+
+border-bottom-size = 4
+border-bottom-color = ${colors.special}
+
+bottom = true
+
+font-0 = knxt:size=16;1
+font-1 = Symbola:size=16;1
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+fixed-center = true
+
+separator = ""
+padding = 1
+
+modules-left =
+modules-center =
+modules-right = battery
 
 [module/battery]
 type = internal/battery
@@ -71,59 +178,36 @@ format-full = 🔋 <label-full>
 format-charging = 🔋+ <label-charging>
 format-discharging = 🔋- <label-discharging>
 
-[module/mpd]
-type = internal/mpd
-
-; Host where mpd is running (either ip or domain name)
-; Can also be the full path to a unix socket where mpd is running.
-host = 127.0.0.1
-port = 6600
-
-; Seconds to sleep between progressbar/song timer sync
-; Default: 1
-interval = 1
-
-label-song = %artist% - %title%
-label-offline = mpd is offline
-
-format-playing = ⏵ <label-song>
-format-paused = ⏸ <label-song>
-format-stopped = ⏹ Stopped
-
-[module/i3]
-type = internal/i3
-
 [bar/tray]
 override-redirect = true
 wm-restack = i3
 
-width = 15%
-height = 32
-offset-x = 85%:-20
-offset-y = 10
-
-border-right-size = 4
-border-right-color = ${colors.special}
+width = 20%
+height = 40
+offset-x = 42%
+offset-y = 100%:-62
 
 bottom = true
 
-font-0 = knxt:size=16;1
-font-1 = Symbola:size=16;1
+font-0 = knxt:size=32;1
+font-1 = Symbola:size=32;1
 
-background = #00000000
+background = ${colors.background}
 foreground = ${colors.foreground}
+
+border-size = 4
+border-color = ${colors.special}
 
 fixed-center = true
 
 separator = "   "
-padding = 3
+padding = 0
 
 modules-left =
 modules-center =
 modules-right = fakeMod
 
-tray-position = right
-tray-background = ${colors.background}
+tray-position = center
 
 [module/fakeMod]
 type = custom/text
