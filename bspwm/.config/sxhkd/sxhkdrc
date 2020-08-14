@@ -138,11 +138,11 @@ super + alt + {h,j,k,l}
 #
 
 #tray
-super + KP_Enter
+super + equal
   polybar tray
 
 #remove tray
-super + KP_Add
+super + minus
   killall polybar && ~/.config/polybar/launch.sh
 
 # Pulse Audio controls
