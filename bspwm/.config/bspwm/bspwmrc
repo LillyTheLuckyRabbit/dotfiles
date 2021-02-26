@@ -27,23 +27,21 @@ bspc config borderless_monocle   	true
 bspc config gapless_monocle      	true
 bspc config focus_follows_pointer	true
 
-#bspc rule -a Gimp desktop='^8' state=floating follow=on
-#bspc rule -a Chromium desktop='^2'
-#bspc rule -a mplayer2 state=floating
-#bspc rule -a Kupfer.py focus=on
-#bspc rule -a Screenkey manage=off
+bspc config external_rules_command	~/.config/bspwm/external_rules
 
 bspc rule -a Origin.exe floating=on
 bspc rule -a origin.exe floating=on
 
-bspc config external_rules_command ~/.config/bspwm/scripts/steam.sh
-
 #autostart
+polybar tray &
 xsetroot -cursor_name left_ptr &
 setxkbmap -option caps:escape &
 picom &
 wpg -m &
 dunst &
-export STEAM_FRAME_FORCE_CLOSE=1 &
+export STEAM_FRAME_FORCE_CLOSE=1
+export RADV_PERFTEST=aco
+/usr/lib/kdeconnectd &
+kdeconnect-indicator &
 ~/.config/polybar/launch.sh &
 ~/autorun.sh

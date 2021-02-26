@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/lilly/.config/wpg/wallpapers/Daft_Punk_Tron.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#050B15",
+        "foreground": "#f5ffff",
+        "cursor": "#f5ffff"
+    },
+    "colors": {
+        "color0": "#050B15",
+        "color1": "#477693",
+        "color2": "#50867B",
+        "color3": "#5F92AC",
+        "color4": "#356988",
+        "color5": "#9DC7D4",
+        "color6": "#4DA6BC",
+        "color7": "#dfeef0",
+        "color8": "#0d1f3e",
+        "color9": "#4e9ccd",
+        "color10": "#5abca8",
+        "color11": "#6ac3f0",
+        "color12": "#388bbd",
+        "color13": "#b4ffff",
+        "color14": "#52e2ff",
+        "color15": "#f5ffff"
+    }
+}

@@ -179,6 +179,7 @@ format-charging = 🔋+ <label-charging>
 format-discharging = 🔋- <label-discharging>
 
 [bar/tray]
+monitor = ${env:MONITOR:}
 override-redirect = true
 wm-restack = i3
 
@@ -195,7 +196,7 @@ font-1 = Symbola:size=32;1
 background = ${colors.background}
 foreground = ${colors.foreground}
 
-border-size = 4
+border-top-size = 4
 border-color = ${colors.special}
 
 fixed-center = true

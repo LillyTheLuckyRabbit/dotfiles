@@ -1,6 +1,6 @@
 [colors]
-	background = "#2d312b"
-	foreground = "#f8f8ef"
+	background = "#232621"
+	foreground = "#edede5"
 
 [global]
     ### Display ###
@@ -18,7 +18,7 @@
     horizontal_padding = 12
     frame_width = 3
 
-    frame_color = "#c9a701"
+    frame_color = "#b99901"
     separator_color = auto
     sort = yes
     idle_threshold = 120
@@ -60,7 +60,7 @@
 
     ### Misc/Advanced ###
     dmenu = /usr/bin/rofi -show run -p dunst:
-    browser = /usr/bin/firefox
+    browser = /usr/bin/google-chrome-stable
     always_run_script = true
     title = Dunst
     class = Dunst
@@ -88,5 +88,5 @@
 [urgency_critical]
     background = colors.background
     foreground = colors.foreground
-    frame_color = "#ffffcc"
+    frame_color = "#f3f3c3"
     timeout = 0
