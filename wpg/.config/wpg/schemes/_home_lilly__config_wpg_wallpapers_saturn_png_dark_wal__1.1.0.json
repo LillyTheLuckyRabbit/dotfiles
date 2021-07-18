@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/lilly/.config/wpg/wallpapers/saturn.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#03050C",
+        "foreground": "#ffffd3",
+        "cursor": "#ffffd3"
+    },
+    "colors": {
+        "color0": "#03050C",
+        "color1": "#945229",
+        "color2": "#67634C",
+        "color3": "#A0925D",
+        "color4": "#343E44",
+        "color5": "#936626",
+        "color6": "#7C836D",
+        "color7": "#d8c8a0",
+        "color8": "#0a1436",
+        "color9": "#cc6728",
+        "color10": "#918857",
+        "color11": "#e0c768",
+        "color12": "#3b5260",
+        "color13": "#cb8625",
+        "color14": "#a6b97e",
+        "color15": "#ffffd3"
+    }
+}
