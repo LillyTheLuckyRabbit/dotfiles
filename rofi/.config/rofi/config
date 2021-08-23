@@ -3,10 +3,10 @@ rofi.width:                          50
 rofi.lines:                          15
 rofi.columns:                        1
 rofi.font:                           knxt 14
-rofi.color-normal:                   #1d232b, #dee5fa, #1d232b, #7b82af, #dee5fa
-rofi.color-urgent:                   #1d232b, #d6b48d, #22231D, #d6b48d, #dee5fa
-rofi.color-active:                   #1d232b, #8aacb4, #1d232b, #8aacb4, #1d232b
-rofi.color-window:                   #1d232b, #7b82af, #545978
+rofi.color-normal:                   #060606, #fff2f2, #060606, #680101, #fff2f2
+rofi.color-urgent:                   #060606, #d6b48d, #22231D, #d6b48d, #fff2f2
+rofi.color-active:                   #060606, #ffd6d6, #060606, #ffd6d6, #060606
+rofi.color-window:                   #060606, #680101, #470101
 rofi.bw:                             5
 rofi.location:                       0
 rofi.padding:                        5

@@ -40,8 +40,5 @@ picom &
 wpg -m &
 dunst &
 export STEAM_FRAME_FORCE_CLOSE=1
-export RADV_PERFTEST=aco
-/usr/lib/kdeconnectd &
-kdeconnect-indicator &
 ~/.config/polybar/launch.sh &
 ~/autorun.sh
