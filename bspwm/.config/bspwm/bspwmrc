@@ -33,11 +33,11 @@ bspc rule -a Origin.exe floating=on
 bspc rule -a origin.exe floating=on
 
 #autostart
+xsetroot -cursor_name left_ptr
+setxkbmap -option caps:escape
+wpg -m
 polybar tray &
-xsetroot -cursor_name left_ptr &
-setxkbmap -option caps:escape &
 picom &
-wpg -m &
 dunst &
 export STEAM_FRAME_FORCE_CLOSE=1
 ~/.config/polybar/launch.sh &

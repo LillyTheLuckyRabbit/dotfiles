@@ -1,28 +1,28 @@
 {
-    "wallpaper": "/home/will/.config/wpg/wallpapers/animals.png",
+    "wallpaper": "/home/lilly/.config/wpg/wallpapers/animals.png",
     "alpha": "100",
 
     "special": {
-        "background": "#0d0a0f",
-        "foreground": "#ffffe0",
-        "cursor": "#ffffe0"
+        "background": "#0a080c",
+        "foreground": "#ffffe9",
+        "cursor": "#ffffe9"
     },
     "colors": {
-        "color0": "#0d0a0f",
-        "color1": "#A44E3A",
-        "color2": "#897678",
-        "color3": "#936654",
-        "color4": "#28304C",
-        "color5": "#6F443B",
-        "color6": "#414051",
-        "color7": "#d6c5ab",
-        "color8": "#271d2d",
-        "color9": "#e35c3c",
-        "color10": "#92676a",
-        "color11": "#ce7e5e",
-        "color12": "#2c3a6a",
-        "color13": "#9b5141",
-        "color14": "#4c4972",
-        "color15": "#ffffe0"
+        "color0": "#0a080c",
+        "color1": "#b2553f",
+        "color2": "#937f81",
+        "color3": "#9f6e5b",
+        "color4": "#1d2339",
+        "color5": "#7c4b41",
+        "color6": "#49485c",
+        "color7": "#e1cfb3",
+        "color8": "#312439",
+        "color9": "#f26240",
+        "color10": "#9d6f72",
+        "color11": "#db8664",
+        "color12": "#314178",
+        "color13": "#a95846",
+        "color14": "#54507e",
+        "color15": "#ffffe9"
     }
 }
