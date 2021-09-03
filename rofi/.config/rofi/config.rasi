@@ -1,0 +1,6 @@
+configuration {
+	modi: "window,drun,ssh,combi";
+	theme: "wpg";
+	font: "knxt 14";
+	combi-modi: "window,drun,ssh";
+}
