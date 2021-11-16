@@ -141,9 +141,9 @@ monitor = ${env:MONITOR:}
 override-redirect = true
 wm-restack = bspwm
 
-width = 48
+width = 95
 height = 32
-offset-x = 100%:-263
+offset-x = 100%:-210
 offset-y = 10
 
 border-bottom-size = 4
