@@ -159,9 +159,9 @@ XF86AudioMute
 
 # Sreen brightness controls
 XF86MonBrightnessUp
-  xbacklight -inc 20 # increase screen brightness
+  xbacklight -inc 10 # increase screen brightness
 XF86MonBrightnessDown
-  xbacklight -dec 20 # decrease screen brightness
+  xbacklight -dec 10 # decrease screen brightness
 
 # Media player controls
 XF86AudioPlay
