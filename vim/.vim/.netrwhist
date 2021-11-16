@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/lilly/dotfiles/polybar/.config/polybar'
 let g:netrw_dirhist_3='/mnt/Files/Documents/School/cs340/NULL/.git'
 let g:netrw_dirhist_2='/home/will/dotfiles/bspwm/.config/sxhkd'
 let g:netrw_dirhist_1='/home/will/dotfiles/polybar/.config/polybar'

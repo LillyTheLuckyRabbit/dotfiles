@@ -11,7 +11,7 @@ monitor = ${env:MONITOR:}
 override-redirect = true
 wm-restack = bspwm
 
-width = 6.75%
+width = 130
 height = 32
 offset-x = 20
 offset-y = 10
@@ -54,9 +54,9 @@ monitor = ${env:MONITOR:}
 override-redirect = true
 wm-restack = bspwm
 
-width = 12%
+width = 230
 height = 32
-offset-x = 44%
+offset-x = 50%:-115
 offset-y = 10
 
 border-bottom-size = 4
@@ -94,9 +94,9 @@ monitor = ${env:MONITOR:}
 override-redirect = true
 wm-restack = bspwm
 
-width = 5%
+width = 100
 height = 32
-offset-x = 95%:-20
+offset-x = 100%:-115
 offset-y = 10
 
 border-right-size = 2
@@ -141,9 +141,9 @@ monitor = ${env:MONITOR:}
 override-redirect = true
 wm-restack = bspwm
 
-width = 4.5%
+width = 48
 height = 32
-offset-x = 91%:-20
+offset-x = 100%:-263
 offset-y = 10
 
 border-bottom-size = 4
@@ -183,9 +183,9 @@ monitor = ${env:MONITOR:}
 override-redirect = true
 wm-restack = i3
 
-width = 20%
+width = 384
 height = 40
-offset-x = 42%
+offset-x = 50%:-192
 offset-y = 100%:-62
 
 bottom = true
