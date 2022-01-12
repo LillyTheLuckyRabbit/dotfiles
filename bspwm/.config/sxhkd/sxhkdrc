@@ -173,6 +173,15 @@ XF86AudioNext
 XF86AudioPrev
   mpc prev
 
+ctrl + alt + shift + KP_Up
+  mpc toggle
+ctrl + alt + shift + KP_Down
+  mpc stop
+ctrl + alt + shift + KP_Right
+  mpc next
+ctrl + alt + shift + KP_Left
+  mpc prev
+
 # Screenshots
 Print
   maim ~/Pictures/Screenshots/$(date +%s).png
