@@ -9,7 +9,12 @@ SETUVAR Z_EXCLUDE:\x5e/home/lilly\x24
 SETUVAR --export _JAVA_AWT_WM_NONREPARENTING:1
 SETUVAR __fish_init_2_39_8:\x1d
 SETUVAR __fish_init_2_3_0:\x1d
-SETUVAR __fish_initialized:3100
+SETUVAR __fish_initialized:3400
+SETUVAR _fisher_FabioAntunes_2F_fish_2D_nvm_files:/home/lilly/\x2econfig/fish/functions/__nvm_run\x2efish\x1e/home/lilly/\x2econfig/fish/functions/node\x2efish\x1e/home/lilly/\x2econfig/fish/functions/npm\x2efish\x1e/home/lilly/\x2econfig/fish/functions/npx\x2efish\x1e/home/lilly/\x2econfig/fish/functions/nvm\x2efish\x1e/home/lilly/\x2econfig/fish/functions/nvm_alias_command\x2efish\x1e/home/lilly/\x2econfig/fish/functions/nvm_alias_function\x2efish\x1e/home/lilly/\x2econfig/fish/functions/yarn\x2efish\x1e/home/lilly/\x2econfig/fish/completions/nvm\x2efish
+SETUVAR _fisher_edc_2F_bass_files:/home/lilly/\x2econfig/fish/functions/__bass\x2epy\x1e/home/lilly/\x2econfig/fish/functions/bass\x2efish
+SETUVAR _fisher_hunter_2D_richardson_2F_fish_2D_bax_files:/home/lilly/\x2econfig/fish/functions/bax\x2efish
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:/home/lilly/\x2econfig/fish/functions/fisher\x2efish\x1e/home/lilly/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1ehunter\x2drichardson/fish\x2dbax\x1eFabioAntunes/fish\x2dnvm\x1eedc/bass
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:\x2d\x2dbold
@@ -38,5 +43,6 @@ SETUVAR fish_pager_color_completion:\x1d
 SETUVAR fish_pager_color_description:B3A06D\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
+SETUVAR fish_pager_color_selected_background:\x2dr
 SETUVAR fish_user_paths:/home/lilly/\x2elocal/bin/
 SETUVAR pisces_pairs:\x28\x2c\x29\x1e\x5b\x2c\x5d\x1e\x7b\x2c\x7d\x1e\x22\x2c\x22\x1e\x27\x2c\x27

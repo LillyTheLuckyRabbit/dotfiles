@@ -187,4 +187,10 @@ Print
   maim ~/Pictures/Screenshots/$(date +%s).png
 
 shift + Print
-  maim -s ~/Pictures/Screenshots/$(date +%s).png
+  maim -s -d 1 ~/Pictures/Screenshots/$(date +%s).png
+
+alt + Print
+  maim | xclip -selection clipboard -t image/png
+
+alt + shift + Print
+  maim -s -d 1 | xclip -selection clipboard -t image/png
